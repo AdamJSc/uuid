@@ -1,10 +1,10 @@
 # UUID
 
-[![License](https://img.shields.io/github/license/gofrs/uuid.svg)](https://github.com/gofrs/uuid/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/gofrs/uuid.svg?branch=master)](https://travis-ci.org/gofrs/uuid)
-[![GoDoc](http://godoc.org/github.com/gofrs/uuid?status.svg)](http://godoc.org/github.com/gofrs/uuid)
-[![Coverage Status](https://codecov.io/gh/gofrs/uuid/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/gh/gofrs/uuid/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gofrs/uuid)](https://goreportcard.com/report/github.com/gofrs/uuid)
+[![License](https://img.shields.io/github/license/LUSHDigital/uuid.svg)](https://github.com/LUSHDigital/uuid/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/LUSHDigital/uuid.svg?branch=master)](https://travis-ci.org/LUSHDigital/uuid)
+[![GoDoc](http://godoc.org/github.com/LUSHDigital/uuid?status.svg)](http://godoc.org/github.com/LUSHDigital/uuid)
+[![Coverage Status](https://codecov.io/gh/LUSHDigital/uuid/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/gh/LUSHDigital/uuid/)
+[![Go Report Card](https://goreportcard.com/badge/github.com/LUSHDigital/uuid)](https://goreportcard.com/report/github.com/LUSHDigital/uuid)
 
 Package uuid provides a pure Go implementation of Universally Unique Identifiers
 (UUID) variant as defined in RFC-4122. This package supports both the creation
@@ -32,7 +32,7 @@ the package.
 ## License
 
 This source code of this package is released under the MIT License. Please see
-the [LICENSE](https://github.com/gofrs/uuid/blob/master/LICENSE) for the full
+the [LICENSE](https://github.com/LUSHDigital/uuid/blob/master/LICENSE) for the full
 content of the license.
 
 ## Recommended Package Version
@@ -50,7 +50,7 @@ If you are unable to make use of a dependency manager with your project, you can
 use the `go get` command to download it directly:
 
 ```Shell
-$ go get github.com/gofrs/uuid
+$ go get github.com/LUSHDigital/uuid
 ```
 
 ## Requirements
@@ -61,16 +61,16 @@ Go 1.2+, but support for these older versions is not actively maintained.
 
 ## Go 1.11 Modules
 
-As of v3.2.0, this repository no longer adopts Go modules, and v3.2.0 no longer has a `go.mod` file.  As a result, v3.2.0 also drops support for the `github.com/gofrs/uuid/v3` import path. Only module-based consumers are impacted.  With the v3.2.0 release, _all_ gofrs/uuid consumers should use the `github.com/gofrs/uuid` import path.
+As of v3.2.0, this repository no longer adopts Go modules, and v3.2.0 no longer has a `go.mod` file.  As a result, v3.2.0 also drops support for the `github.com/LUSHDigital/uuid/v3` import path. Only module-based consumers are impacted.  With the v3.2.0 release, _all_ gofrs/uuid consumers should use the `github.com/LUSHDigital/uuid` import path.
 
-An existing module-based consumer will continue to be able to build using the `github.com/gofrs/uuid/v3` import path using any valid consumer `go.mod` that worked prior to the publishing of v3.2.0, but any module-based consumer should start using the `github.com/gofrs/uuid` import path when possible and _must_ use the `github.com/gofrs/uuid` import path prior to upgrading to v3.2.0.
+An existing module-based consumer will continue to be able to build using the `github.com/LUSHDigital/uuid/v3` import path using any valid consumer `go.mod` that worked prior to the publishing of v3.2.0, but any module-based consumer should start using the `github.com/LUSHDigital/uuid` import path when possible and _must_ use the `github.com/LUSHDigital/uuid` import path prior to upgrading to v3.2.0.
 
-Please refer to [Issue #61](https://github.com/gofrs/uuid/issues/61) and [Issue #66](https://github.com/gofrs/uuid/issues/66) for more details.
+Please refer to [Issue #61](https://github.com/LUSHDigital/uuid/issues/61) and [Issue #66](https://github.com/LUSHDigital/uuid/issues/66) for more details.
 
 ## Usage
 
 Here is a quick overview of how to use this package. For more detailed
-documentation, please see the [GoDoc Page](http://godoc.org/github.com/gofrs/uuid).
+documentation, please see the [GoDoc Page](http://godoc.org/github.com/LUSHDigital/uuid).
 
 ```go
 package main
@@ -78,7 +78,7 @@ package main
 import (
 	"log"
 
-	"github.com/gofrs/uuid"
+	"github.com/LUSHDigital/uuid"
 )
 
 // Create a Version 4 UUID, panicking on error.

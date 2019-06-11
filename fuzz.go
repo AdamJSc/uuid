@@ -28,8 +28,8 @@ package uuid
 // To run:
 //
 //     $ go get github.com/dvyukov/go-fuzz/...
-//     $ cd $GOPATH/src/github.com/gofrs/uuid
-//     $ go-fuzz-build github.com/gofrs/uuid
+//     $ cd $GOPATH/src/github.com/LUSHDigital/uuid
+//     $ go-fuzz-build github.com/LUSHDigital/uuid
 //     $ go-fuzz -bin=uuid-fuzz.zip -workdir=./testdata
 //
 // If you make significant changes to FromString / UnmarshalText and add
